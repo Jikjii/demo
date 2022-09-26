@@ -235,7 +235,7 @@ function App() {
                     src="https://static.vecteezy.com/system/resources/previews/002/986/080/original/letter-g-logo-design-template-free-vector.jpg"
                 />
                 <Divider>
-                    <a target="_blank" href="https://github.com/Jikjii/demo">Click here for Repo</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/Jikjii/demo">Click here for Repo</a>
                 </Divider>
             </Footer>
         </Layout>
