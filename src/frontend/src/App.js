@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { getAllStudents } from "./client";
-import { DownloadOutlined } from '@ant-design/icons';
 import {
     Layout,
     Menu,
