@@ -1,7 +1,20 @@
 import { useState, useEffect } from 'react'
 import { getAllStudents } from "./client";
-import { DownloadOutlined } from '@ant-design/icons';
-import {Layout, Menu, Breadcrumb, Table, Spin, Empty, Badge, Tag, Avatar, Radio, Popconfirm, Image} from 'antd';
+import {
+    Layout,
+    Menu,
+    Breadcrumb,
+    Table,
+    Spin,
+    Empty,
+    Badge,
+    Tag,
+    Avatar,
+    Radio,
+    Popconfirm,
+    Image,
+    Divider
+} from 'antd';
 import {
     DesktopOutlined,
     PieChartOutlined,
@@ -220,6 +233,9 @@ function App() {
                     width={75}
                     src="https://static.vecteezy.com/system/resources/previews/002/986/080/original/letter-g-logo-design-template-free-vector.jpg"
                 />
+                <Divider>
+                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/Jikjii/demo">Click for Repo</a>
+                </Divider>
             </Footer>
         </Layout>
     </Layout>
