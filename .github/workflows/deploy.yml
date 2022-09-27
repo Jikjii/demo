@@ -16,7 +16,7 @@ env:
   # Java
   JAVA_VERSION: 1.17
   # DockerHub
-  DOCKER_HUB_USERNAME: jikjiii
+  DOCKER_HUB_USERNAME: amigoscode
   # AWS & Elastic Bean Stalk
   AWS_REGION: us-east-1
   EB_ENVIRONMENT_NAME: Springbootreactfullstack-env
